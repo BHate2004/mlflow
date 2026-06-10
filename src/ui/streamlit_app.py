@@ -186,7 +186,8 @@ hr { border-color: #22262f; }
 
 # ── Config & Data ──────────────────────────────────────────────────────────────
 
-API_URL = os.getenv("API_URL", "http://localhost:8001")
+# API_URL = os.getenv("API_URL", "http://localhost:8001")
+API_URL = os.getenv("API_URL", "http://api:8000")  # ✅ Correct
 
 SECTORS = sorted([
     "sector 1", "sector 2", "sector 4", "sector 5", "sector 6", "sector 7",
@@ -214,7 +215,7 @@ SECTORS = sorted([
 AGE_POSSESSION = [
     "New Property", "Relatively New", "Moderately Old", "Old Property", "Under Construction",
 ]
-
+    
 LUXURY_SCORES  = ["Low", "Medium", "High"]
 BALCONY_OPTIONS = ["0", "1", "2", "3", "3+"]
 
