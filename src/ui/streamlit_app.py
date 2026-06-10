@@ -186,8 +186,8 @@ hr { border-color: #22262f; }
 
 # ── Config & Data ──────────────────────────────────────────────────────────────
 
-# API_URL = os.getenv("API_URL", "http://localhost:8001")
-API_URL = os.getenv("API_URL", "http://api:8000")  # ✅ Correct
+API_URL = os.getenv("API_URL", "http://localhost:8001")
+
 
 SECTORS = sorted([
     "sector 1", "sector 2", "sector 4", "sector 5", "sector 6", "sector 7",
