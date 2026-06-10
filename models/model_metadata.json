@@ -13,7 +13,7 @@
         "furnishing_type",
         "luxury_score"
     ],
-    "rmse": 0.539515753290375,
+    "rmse": 0.5395157532903752,
     "target": "price (original scale, Crore INR)",
     "transform": "log1p applied during training; expm1 applied at inference"
 }
