@@ -1,0 +1,16 @@
+pandas
+numpy
+scikit-learn
+joblib
+category_encoders
+xgboost
+optuna
+pymysql
+redis
+mlflow
+fastapi
+uvicorn
+python-dotenv
+requests
+streamlit
+pydantic

@@ -1,0 +1,19 @@
+{
+    "model_name": "RandomForest",
+    "features": [
+        "property_type",
+        "sector",
+        "bedRoom",
+        "bathroom",
+        "balcony",
+        "agePossession",
+        "built_up_area",
+        "servant room",
+        "store room",
+        "furnishing_type",
+        "luxury_score"
+    ],
+    "rmse": 0.5395157532903752,
+    "target": "price (original scale, Crore INR)",
+    "transform": "log1p applied during training; expm1 applied at inference"
+}

@@ -1,0 +1,12 @@
+FROM apache/airflow:2.9.1-python3.11
+RUN pip install --no-cache-dir \
+    pymysql \
+    pandas \
+    scikit-learn \
+    joblib \
+    category_encoders \
+    xgboost \
+    optuna \
+    mlflow \
+    "evidently==0.4.33" \
+    requests
