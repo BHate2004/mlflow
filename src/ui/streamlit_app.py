@@ -261,6 +261,7 @@ def get_prediction(payload: dict):
         return predict_via_api(payload), None
     except Exception as api_err:
         try:
+            return predict_local(payload), f"API unavailable — used local model ({api_err})"
         except Exception as local_err:
             return None, f"Prediction failed.\n\nAPI: {api_err}\nLocal: {local_err}"
 
